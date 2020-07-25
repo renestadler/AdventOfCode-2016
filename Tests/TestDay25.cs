@@ -9,7 +9,7 @@ namespace Tests
         public void TestPartOneSample()
         {
             string input = "";
-            Assert.Equal(-1, Day25.PartOne(input.Split("\n")));
+            Assert.Equal(180, Day25.PartOne(input.Split("\n")));
         }
 
         [Fact]
@@ -23,7 +23,7 @@ namespace Tests
         public void TestPartOneInput()
         {
             string input = System.IO.File.ReadAllText("./Inputs/Day25.in");
-            Assert.Equal(0, Day25.PartOne(input.Split("\r\n")));
+            Assert.Equal(180, Day25.PartOne(input.Split("\r\n")));
         }
 
         [Fact]
